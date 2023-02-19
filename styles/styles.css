@@ -1,0 +1,175 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*Kleuren: grijs #899CA0 en donkergroen #1C2B32 */
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a {
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    background-color: #1C2B32;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #1C2B32;
+    cursor: pointer;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin:50px 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+input {
+    font-family: 'Poppins', sans-serif;
+}
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header-group {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0 300px;
+    text-align: center;
+}
+form {
+    margin: 30px;
+}
+input#search {
+    padding: 0 80px 0 25px;
+    background: none;
+    border: 2px solid #1C2B32;
+    border-radius: 27px 0 0 27px;
+    color: #1C2B32;
+    margin-right: 0;
+    height: 55px;
+    vertical-align: top;
+}
+
+input#search::placeholder {
+    color: #1C2B32;
+    overflow: visible;
+}
+
+header button {
+    background-color: #1C2B32;
+    padding: 0 25px;
+    border: 2px solid #1C2B32;
+    border-radius: 0 27px 27px 0;
+    color: #fff;
+    margin-left: -5px;
+    height: 55px;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+blockquote {
+    padding: 30px 45px 30px 85px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+    margin-bottom: 45px;
+    border-radius: 10px;
+    position: relative;
+}
+
+blockquote > img {
+    position: absolute;
+    left: 30px;
+}
+.author img {
+    height: 44px;
+    width: 44px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.author p {
+    display: inline;
+    font-style: italic;
+}
+
+/*///////////// 3.3 Support /////////////*/
+.support img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+/*///////////// 3.4 Faq /////////////*/
+.faq {
+    margin-bottom: 50px;
+}
+
+summary {
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+details .highlight {
+    background-color: #899CA0;
+    color: #fff;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+footer {
+    background-color: #1C2B32;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
